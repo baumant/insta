@@ -137,7 +137,9 @@ textarea { overflow: auto; }
 
 #insta .logo { margin-right: 12px; margin-top: -4px; max-width: 100%; overflow: hidden; position: relative; }
 
-#insta .logo a { font-weight: 600; font-size: 19px; }
+#insta .logo a { font-weight: 600; font-size: 12px; }
+
+@media screen and (min-width: 768px) { #insta .logo a { font-size: 19px; } }
 
 #insta .search-wrapper { -webkit-box-flex: 0; -ms-flex: 0 1 auto; flex: 0 1 auto; min-width: 125px; width: 215px; height: 28px; display: none; }
 
@@ -163,7 +165,9 @@ textarea { overflow: auto; }
 
 #insta .icons .icon-wrapper .icon3 { margin-left: 30px; color: #003569; text-decoration: none; display: block; overflow: hidden; text-indent: 110%; white-space: nowrap; background-position: -302px -180px; height: 24px; width: 24px; background-image: url(http://instagramstatic-a.akamaihd.net/h1/sprites/core/9ee7cc.png); background-repeat: no-repeat; }
 
-#insta .deck { max-width: 640px; padding: 20px; margin: 0 auto; }
+#insta .deck { max-width: 640px; margin: 0 auto; }
+
+@media screen and (min-width: 768px) { #insta .deck { padding: 20px; } }
 
 #insta .deck .section { margin-bottom: 60px; background-color: #fff; border: 1px solid #efefef; border-radius: 3px; margin-left: -1px; margin-right: -1px; }
 
