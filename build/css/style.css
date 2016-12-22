@@ -137,9 +137,9 @@ textarea { overflow: auto; }
 
 #insta .logo { margin-right: 12px; margin-top: -4px; max-width: 100%; overflow: hidden; position: relative; }
 
-#insta .logo a { font-weight: 600; font-size: 12px; }
+#insta .logo img { width: 63px; }
 
-@media screen and (min-width: 768px) { #insta .logo a { font-size: 19px; } }
+@media screen and (min-width: 768px) { #insta .logo img { width: 150px; } }
 
 #insta .search-wrapper { -webkit-box-flex: 0; -ms-flex: 0 1 auto; flex: 0 1 auto; min-width: 125px; width: 215px; height: 28px; display: none; }
 
@@ -183,7 +183,7 @@ textarea { overflow: auto; }
 
 #insta .deck .section header .time { color: #999; -ms-flex-negative: 0; flex-shrink: 0; }
 
-#insta .deck .section img { width: 100%; }
+#insta .deck .section img { width: 100%; box-sizing: border-box; }
 
 #insta .deck .section .section-footer { padding: 0 24px; font-size: 15px; line-height: 18px; }
 
